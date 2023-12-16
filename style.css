@@ -123,38 +123,34 @@ p {
   max-width: 100%;
   height: auto;
 }
-@media (max-width:767px) {
-    h1 {
-        font-size: 48px;
-    }
-    .col-6 img {
-        display: none;
-
-    }
- .col-6 {
-    display: block; 
+@media (max-width: 767px) {
+  h1 {
+    font-size: 48px;
+  }
+  .col-6 img {
+    display: none;
+  }
+  .col-6 {
+    display: block;
   }
 
   .col-6 h2,
   .col-6 p,
   .col-6 button {
-    width: 100%; 
-    text-align: center; 
+    width: 100%;
+    text-align: center;
   }
-  .weatherApp, .Yoga, .Yogurt {
+  .weatherApp,
+  .Yoga,
+  .Yogurt {
     font-size: 30px;
   }
-   .button {
+  .launch-button {
+    display: block;
     padding: 10px 10px;
-   }
-   .col-sm-4 {
+  }
+  .col-sm-4 {
     display: flex;
     justify-content: space-between;
-   }
-      
-
-    }
-     
-  
-     
-
+  }
+}
