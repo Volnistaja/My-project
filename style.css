@@ -134,20 +134,21 @@ p {
     display: block;
   }
 
-  .col-6 h2,
-  .col-6 p,
-  .col-6 button {
-    width: 100%;
+  .aboutYoga,
+  .about-weather,
+  .aboutYogurt {
     text-align: center;
   }
   .weatherApp,
   .Yoga,
   .Yogurt {
     font-size: 30px;
+    text-align: center;
   }
   .launch-button {
     display: block;
-    padding: 10px 10px;
+    text-align: center;
+    margin: 0 100px;
   }
   .col-sm-4 {
     display: flex;
